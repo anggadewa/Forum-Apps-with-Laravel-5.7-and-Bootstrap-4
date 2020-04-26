@@ -1,0 +1,556 @@
+body {
+    background-color: #F1F1F1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thelatest {
+    padding: 20px;
+    border-radius: 35px;
+    background-color: white;
+    margin: 5px;
+}
+
+.question {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #AEFFE7;
+    margin: 5px;
+    margin-bottom: 40px;
+}
+
+.jam {
+    margin-top: -50px;
+}
+
+.chevron {
+    margin-top: -15px;
+}
+
+.noLink {
+    text-decoration: none;
+    color: black;
+}
+
+.noLink:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.name {
+    margin-left: 60px;
+    margin-top: -35px;
+}
+
+.comment {
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.commentText {
+    margin-left: 250px;
+    margin-top: -50px;
+}
+
+.view {
+    margin-left: 370px;
+    margin-top: -80px;
+}
+
+.viewText {
+    margin-left: 420px;
+    margin-top: -63px;
+}
+
+.createQuestion {
+    padding: 20px;
+    border-radius: 35px;
+    background-color: white;
+    margin: 5px;
+}
+
+.createQuestImg {
+    margin-left: 60px;
+}
+
+.createQuestImgA {
+    color: black;
+}
+
+.createQuestImgA:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.thumb{
+    border: 3px solid white;
+}
+
+.openImage,.openImage:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.cardRadius{
+    border-radius: 15px;
+}
+
+#zoom_image {
+    font-size: 28px;
+    color: #444;
+    cursor: pointer;
+}
+
+.createText {
+    margin-left: 140px;
+    margin-top: -50px;
+}
+
+.popularQuestion {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 35px;
+}
+
+#popularHover {
+    background: #F1F1F1;
+    text-decoration: none;
+    color: black;
+}
+
+#popularHover:hover {
+    background: #AEFFE7;
+    text-decoration: none;
+    color: black;
+}
+
+.navItem{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: #AEFFE7;
+    border-radius: 15px;
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navItem:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.navLogout{
+    float: right;
+    margin-left: -100px;
+    /* margin-right: 10px; */
+    /* margin-bottom: 5px; */
+    background-color: red;
+    border-radius: 15px;
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navLogout:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.navTags {
+    float: left;
+    /* margin-left: -100px; */
+    margin-right: -150px;
+    /* margin-bottom: 5px; */
+    background-color:yellow;
+    border-radius: 15px;
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navTags:hover {
+    color: black;
+    text-decoration: none;
+}
+.searchNav{
+    margin-left: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.navItemRight {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: #E8FF70;
+    border-radius: 15px;
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navItemRight:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.colorButton{
+    border-color: black;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.colorButton:hover {
+    background-color: #AEFFE7;
+    border-color: #2ED1A2;
+    color: black;
+    font-weight: bolder;
+}
+
+.tengah{
+    text-align: center;
+}
+
+.profit{
+    border-radius: 30px;
+    border: solid #2ED1A2;
+    padding: 30px;
+}
+
+.bagFooter{
+    background-color: black;
+    padding: 50px;
+    color: white;
+}
+
+.menuFooter{
+    list-style-type: none;
+}
+.menuLink:hover {
+    text-decoration: none;
+}
+
+.linkSocmed{
+    margin-left: 60px;
+    margin-top: -40px;
+}
+
+.linkSocmed-2 {
+    margin-right: 60px;
+    margin-top: -40px;
+}
+
+.a-socmed{
+    color: white;
+}
+
+.a-socmed:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.registerInfo{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.h4RegisterInfo{
+    margin-left: -120px;
+}
+
+.imgRegisterInfo{
+    margin-left: 20px;
+}
+
+.register {
+    padding: 20px;
+    border-radius: 35px;
+    background-color: white;
+    margin: 5px;
+    padding-right: 70px;
+}
+
+.registerLabel{
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 18pt;
+}
+
+.registerInput{
+    margin-left: 25px;
+    border-radius: 15px;
+    size: 20px;
+}
+
+.registerAlert{
+    margin-left: 25px;
+}
+
+.registerButton{
+    text-align: center;
+    background-color: #E8FF70;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18pt;
+    border: none;
+    margin-left: 25px;
+}
+
+.h1Panel{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+}
+
+.panel{
+    background-color: white;
+    border-radius: 20px;
+    /* text-align: center; */
+    padding: 20px;
+    margin: 10px;
+    padding-right: 70px;
+}
+
+.createInput {
+    margin-left: 25px;
+    border-radius: 10px;
+    size: 20px;
+    background-color: #F1F1F1;
+}
+
+.ckEditor,
+.select2Tags,
+.imageUpload,
+.viewImageEdit{
+    margin-left: 25px;
+    margin-right: -25px;
+    border-radius: 10px;
+    background-color: #F1F1F1;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.createButton {
+    text-align: center;
+    background-color: #E8FF70;
+    border-radius: 15px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bolder;
+    /* font-size: 18pt; */
+    border: none;
+    margin-left: 25px;
+}
+
+.latestQuestion{
+    margin-left: 25px;
+    margin-right: -25px;
+    border-radius: 10px;
+    background-color: #F1F1F1;
+    padding: 10px 10px;
+}
+
+.tableTag {
+    margin-left: 25px;
+    border-radius: 15px;
+    size: 20px;
+}
+
+.show {
+    padding: 20px;
+    border-radius: 35px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 35px;
+}
+
+.showTitle{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    margin: 5px;
+}
+
+.showContent {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #F9F9F9;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.showComment {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    margin: 5px;
+    margin-top: 20px;
+    padding-right: 70px;
+    padding-bottom: 80px;
+}
+
+.badgeContent{
+    background-image: linear-gradient(to right, #FFF22F, #6AFFCC);
+    opacity: 85%;
+    color: black;
+}
+
+.commentLabel {
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 18pt;
+}
+
+.commentInput {
+    margin-left: 25px;
+    border-radius: 15px;
+    size: 20px;
+}
+
+.commentButton {
+    text-align: center;
+    background-color: #E8FF70;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 12pt;
+    border: none;
+    margin-left: 25px;
+}
+
+.showReply {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #F9F9F9;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.showReply1{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.showAfterComment {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #E0E0E0;
+    margin: 5px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.showContentComment{
+    margin: 10px;
+    /* margin-left: -110px; */
+}
+
+.buttonCollapse{
+    background-color: #AEFFE7;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+.buttonCollapse:hover {
+    color: #E8FF70;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.replyInput{
+    margin-top: 10px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.showReplyComment {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #E0E0E0;
+    margin: 5px;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+}
+
+.showContntReply {
+    margin: 10px;
+    /* margin-left: -70px; */
+}
+
+.profile {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+}
+
+.imgProfile{
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+}
+
+.nameProfile{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.editIconProfile{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.editIconProfile:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.bioProfile{
+    margin-bottom: 35px;
+}
+
+.questionList {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #E0E0E0;
+    margin: 5px;
+}
+
+.nameProfile{
+    color: black;
+}
+
+.nameProfile:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.linkSearch{
+    color: black;
+}
+
+.linkSearch:hover{
+    text-decoration: none;
+}
